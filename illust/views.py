@@ -14,6 +14,14 @@ import magic
 #許可するMIMEタイプのリスト
 ALLOWED_MIME    = [ "application/pdf" ]
 
+"""
+MIMEについて
+
+https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-formats.html?lang=ja
+
+photoshopは"image/vnd.adobe.photoshop"もしくはmagicを使って調べる
+"""
 
 
 class illustView(View):
